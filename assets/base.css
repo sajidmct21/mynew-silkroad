@@ -3685,6 +3685,8 @@ details-disclosure > details {
 }
 
 /* *****************My Custom CSS***************** */
+
+/* Custom Fonts import */
 @font-face {
   font-family: "helvetica-400";
 
@@ -3692,10 +3694,9 @@ details-disclosure > details {
     format("woff");
 }
 
-.announcement-bar .h5, .link {
+/* Announcement bar and Header Menu */
+.announcement-bar .h5,
+.link {
   font-family: helvetica-400 !important;
   font-size: 1.8rem;
 }
-
-
-/* Header Menu */
