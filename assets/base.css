@@ -3692,7 +3692,7 @@ details-disclosure > details {
     format("woff");
 }
 
-.announcement-bar__message .h5 {
+.announcement-bar .h5 {
   font-family: helvetica-400 !important;
   font-size: 18px;
 }
