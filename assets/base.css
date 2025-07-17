@@ -3692,7 +3692,10 @@ details-disclosure > details {
     format("woff");
 }
 
-.announcement-bar .h5 {
+.announcement-bar .h5, .link {
   font-family: helvetica-400 !important;
   font-size: 1.8rem;
 }
+
+
+/* Header Menu */
