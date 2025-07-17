@@ -3700,3 +3700,8 @@ details-disclosure > details {
   font-family: helvetica-400 !important;
   font-size: 1.8rem;
 }
+
+/* Header Icons */
+.header__icons{
+  gap: 1.8rem;
+}
