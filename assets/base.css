@@ -3694,7 +3694,7 @@ details-disclosure > details {
     format("woff");
 }
 
-/* Announcement bar and Header Menu */
+/* Announcement bar and Header Menu items space and font */
 .announcement-bar .h5,
 .link {
   font-family: helvetica-400 !important;
@@ -3723,4 +3723,14 @@ details-disclosure > details {
   margin-right: 0;
   margin-left: -4px;
   margin-right: -4px;
+}
+
+
+/* Add button to header grid */
+@media screen and (min-width: 990px) {
+    .header--middle-left {
+        grid-template-areas: "heading navigation button icons";
+        grid-template-columns: auto auto auto 1fr;
+        column-gap: 2rem;
+    }
 }
