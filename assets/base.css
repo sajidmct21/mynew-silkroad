@@ -3732,7 +3732,7 @@ details-disclosure > details {
 
     .header--middle-left {
         grid-template-areas: "heading navigation button icons";
-        grid-template-columns: auto auto auto 1fr;
-        column-gap: 2rem;
+        grid-template-columns: auto auto 1fr 1fr;
+        column-gap: 1.8rem;
     }
 }
