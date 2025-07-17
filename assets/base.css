@@ -3727,7 +3727,16 @@ details-disclosure > details {
 
 
 /* Add button to header grid */
+
+.header__custom-button {
+  display: none;
+}
 @media screen and (min-width: 990px) {
+  .header__custom-button {
+    display: block;
+    grid-area: custom-button;
+    justify-self: center; /* or start/end as needed */
+  }
     .header--middle-left {
         grid-template-areas: "heading navigation button icons";
         grid-template-columns: auto auto auto 1fr;
