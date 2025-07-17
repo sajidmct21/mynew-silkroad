@@ -3710,3 +3710,14 @@ details-disclosure > details {
 .header__inline-menu .list-menu--inline{
   gap:2rem
 }
+
+
+/* Multicolumn CardSpacing */
+
+  .multicolumn .page-width{
+    padding: 0 0rem
+  }
+  .multicolumn-card-spacing {
+    margin-left: -4px;
+    margin-right: -4px;
+}
