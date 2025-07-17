@@ -3717,7 +3717,7 @@ details-disclosure > details {
   padding: 0 0rem;
 }
 
-.multicolumn-card-spacing {
+.multicolumn .multicolumn-card-spacing {
   padding-top: 0;
   margin-left: 0;
   margin-right: 0;
