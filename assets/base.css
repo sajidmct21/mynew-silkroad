@@ -3734,8 +3734,6 @@ details-disclosure > details {
 @media screen and (min-width: 990px) {
   .header__custom-button {
     display: block;
-    grid-area: custom-button;
-    justify-self: center; /* or start/end as needed */
   }
     .header--middle-left {
         grid-template-areas: "heading navigation button icons";
