@@ -1,0 +1,67 @@
+{% schema %}
+{
+  "name": "Line with Text",
+  "settings": [
+    {
+      "type": "text",
+      "id": "line_text",
+      "label": "Text",
+      "default": "Featured Products"
+    },
+    {
+      "type": "select",
+      "id": "alignment",
+      "label": "Text Alignment",
+      "options": [
+        { "value": "left", "label": "Left" },
+        { "value": "center", "label": "Center" },
+        { "value": "right", "label": "Right" }
+      ],
+      "default": "left"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Line with Text"
+    }
+  ]
+}
+{% endschema %}
+
+<div class="line-with-text line-with-text--{{ section.settings.alignment }}">
+  <span class="line-with-text__text">{{ section.settings.line_text }}</span>
+</div>
+
+{%style %}
+.line-with-text {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin: 2rem 0;
+  padding: 0 1rem;
+}
+
+.line-with-text__text {
+  white-space: nowrap;
+  font-weight: bold;
+}
+
+.line-with-text::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background-color: #ccc;
+}
+
+/* Alignment options */
+.line-with-text--left {
+  justify-content: flex-start;
+}
+.line-with-text--center {
+  justify-content: center;
+}
+.line-with-text--right {
+  justify-content: flex-end;
+}
+
+{% endstyle %}
