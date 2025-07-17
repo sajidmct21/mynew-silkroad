@@ -3702,22 +3702,25 @@ details-disclosure > details {
 }
 
 /* Header Icons */
-.header__icons{
+.header__icons {
   gap: 1.8rem;
 }
 
 /* Header Menu item gap */
-.header__inline-menu .list-menu--inline{
-  gap:2rem
+.header__inline-menu .list-menu--inline {
+  gap: 2rem;
 }
 
+/* Multicolumn Card Spacing */
 
-/* Multicolumn CardSpacing */
+.multicolumn .page-width {
+  padding: 0 0rem;
+}
 
-  .multicolumn .page-width{
-    padding: 0 0rem
-  }
-  .multicolumn-card-spacing {
-    margin-left: -4px;
-    margin-right: -4px;
+.multicolumn-card-spacing {
+  padding-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-left: -4px;
+  margin-right: -4px;
 }
