@@ -3707,6 +3707,6 @@ details-disclosure > details {
 }
 
 /* Header Menu item gap */
-.list-menu--inline{
+.header__inline-menu .list-menu--inline{
   gap:2rem
 }
