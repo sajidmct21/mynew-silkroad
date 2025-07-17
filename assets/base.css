@@ -3705,3 +3705,8 @@ details-disclosure > details {
 .header__icons{
   gap: 1.8rem;
 }
+
+/* Header Menu item gap */
+.list-menu--inline{
+  gap:2rem
+}
