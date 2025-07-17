@@ -247,7 +247,7 @@
           </localization-form>
         {%- endif -%}
       </div>
-      {% render 'header-search', input_id: 'Search-In-Modal' %}
+      {% comment %} {% render 'header-search', input_id: 'Search-In-Modal' %} {% endcomment %}
 
       {%- if shop.customer_accounts_enabled -%}
         <a
@@ -277,7 +277,7 @@
           </span>
         </a>
       {%- endif -%}
-
+      {% render 'header-search', input_id: 'Search-In-Modal' %}
       {%- for block in section.blocks -%}
         {%- case block.type -%}
           {%- when '@app' -%}
