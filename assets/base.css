@@ -3728,9 +3728,6 @@ details-disclosure > details {
 
 /* Add button to header grid */
 
-.header__custom-button {
-  display: none;
-}
 @media screen and (min-width: 990px) {
 
     .header--middle-left {
