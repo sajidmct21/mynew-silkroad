@@ -65,9 +65,18 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
+    },
+    "line_with_text_pTdYn9": {
+      "type": "line-with-text",
+      "name": "Line with Text",
+      "settings": {
+        "line_text": "30 Products",
+        "alignment": "left"
+      }
     }
   },
   "order": [
-    "multicolumn_CQrHGz"
+    "multicolumn_CQrHGz",
+    "line_with_text_pTdYn9"
   ]
 }
