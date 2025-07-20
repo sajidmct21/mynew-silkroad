@@ -3694,6 +3694,12 @@ details-disclosure > details {
     format("woff");
 }
 
+@font-face {
+  font-family: "helvetica-bold-700";
+
+  src: url("https://cdn.shopify.com/s/files/1/0714/2758/8264/files/Helvetica-Bold.woff?v=1752990784")
+    format("woff");
+}
 /* Cabin Variable Font */
 @font-face {
   font-family: "cabin";
@@ -3759,4 +3765,16 @@ details-disclosure > details {
     grid-template-columns: auto auto 1fr 1fr;
     column-gap: 1.8rem;
   }
+}
+
+/* Feature Collection */
+
+/* Change price styling */
+.price .price-item {
+  font-family: helvetica-bold-700;
+  font-weight: 700;
+  /* font-style: Bold; */
+  font-size: 18px;
+  line-height: 130%;
+  letter-spacing: 0%;
 }
