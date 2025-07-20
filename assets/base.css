@@ -3752,6 +3752,7 @@ details-disclosure > details {
     line-height: 100%;
     letter-spacing: 0%;
     text-transform: uppercase;
+    border: none;
   }
   .header--middle-left {
     grid-template-areas: "heading navigation button icons";
