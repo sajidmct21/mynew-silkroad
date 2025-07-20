@@ -3782,7 +3782,7 @@ details-disclosure > details {
 }
 
 /* Card Title */
-.card__heading h5 {
+.card__heading.h5 a {
   font-family: helvetica-400;
   font-weight: 400;
   font-style: Regular;
