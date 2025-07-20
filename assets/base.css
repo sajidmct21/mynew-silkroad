@@ -3733,6 +3733,9 @@ details-disclosure > details {
 
 @media screen and (min-width: 990px) {
 
+  .photo-gifting-button{
+  display: block;
+}
     .header--middle-left {
         grid-template-areas: "heading navigation button icons";
         grid-template-columns: auto auto 1fr 1fr;
