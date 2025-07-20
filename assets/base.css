@@ -3694,6 +3694,14 @@ details-disclosure > details {
     format("woff");
 }
 
+/* Cabin Variable Font */
+@font-face {
+  font-family: "cabin";
+
+  src: url("https://cdn.shopify.com/s/files/1/0714/2758/8264/files/Cabin-VariableFont_wdth_wght.woff?v=1752975587")
+    format("woff");
+}
+
 /* Announcement bar and Header Menu items space and font */
 .announcement-bar .h5,
 .link {
@@ -3725,24 +3733,29 @@ details-disclosure > details {
   margin-right: -4px;
 }
 
-
 /* Add button to header grid */
-.photo-gifting-button{
+.photo-gifting-button {
   display: none;
 }
 
 @media screen and (min-width: 990px) {
-
-  .photo-gifting-button{
-  display: block;
-  background-color: #B58231;
-  color: #fff;
-  border-radius: 5.6rem;
-  padding: 1rem 3rem;
-}
-    .header--middle-left {
-        grid-template-areas: "heading navigation button icons";
-        grid-template-columns: auto auto 1fr 1fr;
-        column-gap: 1.8rem;
-    }
+  .photo-gifting-button {
+    display: block;
+    background-color: #b58231;
+    color: #fff;
+    border-radius: 5.6rem;
+    padding: 1rem 3rem;
+    font-family: Cabin;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 17px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+  }
+  .header--middle-left {
+    grid-template-areas: "heading navigation button icons";
+    grid-template-columns: auto auto 1fr 1fr;
+    column-gap: 1.8rem;
+  }
 }
