@@ -3767,6 +3767,8 @@ details-disclosure > details {
   }
 }
 
+
+
 /* Feature Collection */
 
 /* Change price styling */
@@ -3781,7 +3783,7 @@ details-disclosure > details {
 
 /* Card Title */
 .card__heading h5 {
-  font-family: Helvetica-400;
+  font-family: helvetica-400;
   font-weight: 400;
   font-style: Regular;
   font-size: 16px;
