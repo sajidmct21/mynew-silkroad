@@ -3727,6 +3727,9 @@ details-disclosure > details {
 
 
 /* Add button to header grid */
+.photo-gifting-button{
+  display: none;
+}
 
 @media screen and (min-width: 990px) {
 
