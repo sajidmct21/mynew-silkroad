@@ -3735,6 +3735,10 @@ details-disclosure > details {
 
   .photo-gifting-button{
   display: block;
+  background-color: #B58231;
+  color: #fff;
+  border-radius: 5.6rem;
+  padding: 1rem 3rem;
 }
     .header--middle-left {
         grid-template-areas: "heading navigation button icons";
