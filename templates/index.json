@@ -68,6 +68,7 @@
     },
     "line_with_text_pTdYn9": {
       "type": "line-with-text",
+      "disabled": true,
       "name": "Line with Text",
       "settings": {
         "line_text": "30 Products",
