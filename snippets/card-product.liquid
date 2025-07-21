@@ -110,7 +110,8 @@
 
         {% comment %} My custom button start {% endcomment %}
         <div
-          class="custom-div">
+          class="custom-div"
+        >
           <button class="custom-btn">Add to Cart</button>
         </div>
         {% comment %} My custon button ends {% endcomment %}
@@ -771,11 +772,15 @@
 
 {% style %}
   .custom-div {
+    display: none;
     position: absolute;
     bottom: 10%;
     left: 50%;
     transform: translate(-50%, -50%);
     position: absolute;
+  }
+  .custom-div:hover {
+    display: block;
   }
   .custom-btn {
     padding: 11px 30px;
