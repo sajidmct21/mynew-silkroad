@@ -110,13 +110,8 @@
 
         {% comment %} My custom button start {% endcomment %}
         <div
-          style="
-            Position:absolute;  bottom: 20%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-          "
-        >
-          <button>Add to Cart</button>
+          class="custom-div">
+          <button class="custom-btn">Add to Cart</button>
         </div>
         {% comment %} My custon button ends {% endcomment %}
 
@@ -773,3 +768,21 @@
     </div>
   </div>
 {%- endif -%}
+
+{% style %}
+  .custom-div {
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+  }
+  .custom-btn {
+    padding: 11px 30px;
+    font-size: 20px;
+    border-radius: 25px;
+    background-color: red;
+    color: white;
+    border: none;
+  }
+{% endstyle %}
