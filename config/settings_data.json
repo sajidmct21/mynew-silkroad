@@ -107,6 +107,8 @@
     "sale_badge_color_scheme": "scheme-4",
     "sold_out_badge_color_scheme": "scheme-3",
     "custom_badge_1_enable": "both",
+    "custom_badge_2_enable": "both",
+    "custom_badge_2_position": "bottom right",
     "brand_headline": "",
     "brand_description": "<p></p>",
     "brand_image_width": 100,
