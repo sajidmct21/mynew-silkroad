@@ -3797,7 +3797,7 @@ details-disclosure > details {
 
 /* View All Button */
 .center.collection__view-all{
-margin-top: 5rem;
+margin-top: 3rem;
 }
 .collection__view-all a:not(.link){
   background-color: #B58231;
