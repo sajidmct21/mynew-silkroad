@@ -112,7 +112,13 @@
         <div
           class="custom-div"
         >
-          <button class="custom-btn">Add to Cart</button>
+          {% comment %} <button class="custom-btn">Add to Cart</button> {% endcomment %}
+
+          <form method="post" action="{{ routes.cart_add_url }}">
+            <input type="hidden" name="id" value="{{ product.variants.first.id }}">
+            <input min="1" type="number" id="quantity" name="quantity" value="1">
+            <input type="submit" value="Add to cart" class="btn">
+          </form>
         </div>
         {% comment %} My custon button ends {% endcomment %}
 
@@ -783,7 +789,7 @@
     padding: 11px 30px;
     font-size: 20px;
     border-radius: 25px;
-    background-color: #2B1A13;
+    background-color: #2b1a13;
     color: white;
     border: none;
   }
