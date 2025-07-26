@@ -3808,6 +3808,10 @@ details-disclosure > details {
   line-height: 130%;
   padding: 2rem 7rem;
   border-radius: 8.8rem;
+  
+}
+
+.collection__view-all .button:after{
   border: none !important;
   outline: none !important;
 }
