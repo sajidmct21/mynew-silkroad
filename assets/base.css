@@ -3789,18 +3789,18 @@ details-disclosure > details {
 
 /* Add to cart button */
 .quick-add__submit {
-  background-color: #2B1A13;
-  color:white;
+  background-color: #2b1a13;
+  color: white;
   font-family: helvetica-bold-700;
   font-size: 18px;
 }
 
 /* View All Button */
 .center.collection__view-all {
-margin-top: 3rem;
+  margin-top: 3rem;
 }
 .collection__view-all .button {
-  background-color: #B58231;
+  background-color: #b58231;
   color: white;
   font-family: helvetica-400;
   font-weight: 400;
@@ -3809,4 +3809,5 @@ margin-top: 3rem;
   padding: 2rem 7rem;
   border-radius: 8.8rem;
   border: none !important;
+  outline: none !important;
 }
