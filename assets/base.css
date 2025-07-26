@@ -3796,10 +3796,10 @@ details-disclosure > details {
 }
 
 /* View All Button */
-.center.collection__view-all{
+.center.collection__view-all {
 margin-top: 3rem;
 }
-.collection__view-all a:not(.link){
+.collection__view-all .button {
   background-color: #B58231;
   color: white;
   font-family: helvetica-400;
