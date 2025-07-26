@@ -3810,7 +3810,7 @@ details-disclosure > details {
   border-radius: 8.8rem;
 }
 
-.collection__view-all .button:after {
+.collection__view-all .button:after, .collection__view-all .button:hover{
   top: 0;
   right: 0;
   bottom: 0;
