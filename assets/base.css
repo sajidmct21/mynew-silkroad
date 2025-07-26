@@ -3796,6 +3796,9 @@ details-disclosure > details {
 }
 
 /* View All Button */
+.center.collection__view-all{
+margin-top: 10rem;
+}
 .collection__view-all a:not(.link){
   background-color: #B58231;
   color: white;
@@ -3803,7 +3806,6 @@ details-disclosure > details {
   font-weight: 400;
   font-size: 16px;
   line-height: 130%;
-  margin-top: 10rem;
   padding: 2rem 7rem;
   border-radius: 8.8rem;
   border: none;
