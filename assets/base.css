@@ -3794,3 +3794,14 @@ details-disclosure > details {
   font-family: helvetica-bold-700;
   font-size: 18px;
 }
+
+/* View All Button */
+.collection__view-all a:not(.link){
+  background-color: #B58231;
+  color: white;
+  font-family: helvetica-400;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 130%;
+  margin-top: 1rem;
+}
