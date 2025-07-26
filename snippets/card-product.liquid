@@ -55,8 +55,7 @@
     >
       <div
         class="card__inner {% if settings.card_style == 'standard' %}color-{{ settings.card_color_scheme }} gradient{% endif %}{% if card_product.featured_media or settings.card_style == 'standard' %} ratio{% endif %}"
-        {% comment %} add position:relative {% endcomment %}
-        style="--ratio-percent: {{ 1 | divided_by: ratio | times: 100 }}%; position:relative;"
+        style="--ratio-percent: {{ 1 | divided_by: ratio | times: 100 }}%;"
       >
         {%- if card_product.featured_media -%}
           <div class="card__media{% if image_shape and image_shape != 'default' %} shape--{{ image_shape }} color-{{ settings.card_color_scheme }} gradient{% endif %}">
@@ -107,20 +106,6 @@
             </div>
           </div>
         {%- endif -%}
-
-        {% comment %} My custom button start {% endcomment %}
-        <div
-          class="custom-div"
-        >
-          {% comment %} <button class="custom-btn">Add to Cart</button> {% endcomment %}
-
-          <form method="post" action="{{ routes.cart_add_url }}">
-            <input type="hidden" name="id" value="{{ product.variants.first.id }}">
-            <input min="1" type="number" id="quantity" name="quantity" value="1">
-            <input type="submit" value="Add to cart" class="btn">
-          </form>
-        </div>
-        {% comment %} My custon button ends {% endcomment %}
 
         <div class="card__content">
           <div class="card__information">
