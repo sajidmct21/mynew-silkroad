@@ -3786,3 +3786,11 @@ details-disclosure > details {
   line-height: 130%;
   text-transform: uppercase;
 }
+
+/* Add to cart button */
+.quick-add__submit {
+  background-color: #2B1A13;
+  color:white;
+  font-family: helvetica-bold-700;
+  font-size: 18px;
+}
