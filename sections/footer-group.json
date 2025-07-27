@@ -35,11 +35,14 @@
             "menu": "footer"
           }
         },
-        "link_list_i4JwfN": {
-          "type": "link_list",
+        "newsletter_mYrEX8": {
+          "type": "newsletter",
           "settings": {
-            "heading": "Quick links",
-            "menu": "footer"
+            "newsletter_heading": "Subscribe to our emails",
+            "newsletter_description": "<p>Share contact information, store details, and brand content with your customers.</p>",
+            "enable_follow_on_shop": true,
+            "newsletter_enable": true,
+            "show_social": true
           }
         }
       },
@@ -47,7 +50,7 @@
         "link_list_NEctMG",
         "link_list_R3tzmE",
         "link_list_wFYBfX",
-        "link_list_i4JwfN"
+        "newsletter_mYrEX8"
       ],
       "settings": {
         "color_scheme": "scheme-3",
