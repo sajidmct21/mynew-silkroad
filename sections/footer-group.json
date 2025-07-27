@@ -21,13 +21,6 @@
             "menu": "footer"
           }
         },
-        "link_list_R3tzmE": {
-          "type": "link_list",
-          "settings": {
-            "heading": "Quick links",
-            "menu": "footer"
-          }
-        },
         "link_list_abGRQ8": {
           "type": "link_list",
           "settings": {
@@ -55,7 +48,6 @@
       },
       "block_order": [
         "link_list_NEctMG",
-        "link_list_R3tzmE",
         "link_list_abGRQ8",
         "link_list_wFYBfX",
         "newsletter_mYrEX8"
