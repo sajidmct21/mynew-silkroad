@@ -66,6 +66,60 @@
         "padding_bottom": 0
       }
     },
+    "slideshow_nPtrBd": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_PHeqGq": {
+          "type": "slide",
+          "settings": {
+            "image_overlay_opacity": 0,
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "show_text_box": true,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": ""
+          }
+        },
+        "slide_GeCQ6a": {
+          "type": "slide",
+          "settings": {
+            "image_overlay_opacity": 0,
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "show_text_box": true,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_PHeqGq",
+        "slide_GeCQ6a"
+      ],
+      "name": "t:sections.slideshow.presets.name",
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "counter",
+        "auto_rotate": true,
+        "change_slides_speed": 5,
+        "image_behavior": "ambient",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
     "featured_collection_K36Ykr": {
       "type": "featured-collection",
       "name": "t:sections.featured-collection.presets.name",
@@ -156,6 +210,7 @@
   },
   "order": [
     "multicolumn_CQrHGz",
+    "slideshow_nPtrBd",
     "featured_collection_K36Ykr",
     "featured_collection_bQFkq6",
     "featured_collection_mFzazp"
